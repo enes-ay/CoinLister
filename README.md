@@ -1,5 +1,34 @@
-# CoinLister![Screenshot_20220929_201728](https://user-images.githubusercontent.com/100990972/193234402-215da16c-8632-4325-a320-be28e92f5e39.png)
-<div
-![Screenshot_20220929_201720](https://user-images.githubusercontent.com/100990972/193234671-c116d7cb-696a-43ff-b987-ee4ca5ef97bb.png)
-![Screenshot_20220929_201728](https://user-images.githubusercontent.com/100990972/193234676-d6fd304a-b8f1-43c4-8e1c-77ea3540b20f.png)
-![Screenshot_20220929_201645](https://user-images.githubusercontent.com/100990972/193234680-333fb793-c51c-420d-a7f6-328f95b3000e.png)
+
+<html>
+<head>
+  <h1 text-size:70px >CoinLister</h1>
+    <p>This app lists top 100 coins at Coinmarketcap. The user can track the prices, volume, supply and add coins to favorites. The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice.</p>
+</head>
+<body>
+ <h1>Used Technologies</h1>
+<div align:start>
+<p color:blue>
+     MVVM<br>
+     Firebase Authentication<br>
+     CoinMarketCap API<br>
+     Retrofit<br>
+     Room<br>
+     Shared Preferences<br>
+     Live Data<br>
+     Navigation<br>
+     Viewbinding<br>
+     Coroutine<br>
+    </p>
+</div>
+<div  >
+    <h1>
+    Screenshots</h1>
+    <img src="/screenshots/login.png" width="150px"</img> 
+    <img src="/screenshots/register.png" width="150px"</img> 
+    <img src="/screenshots/list.png" width="150px"</img> 
+    <img src="/screenshots/favorites.png" width="150px"</img> 
+    <img src="/screenshots/details.png" width="150px"</img> 
+    <img src="/screenshots/alertdialog.png" width="150px"</img> 
+</div>
+</body>
+</html>

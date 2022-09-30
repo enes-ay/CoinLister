@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/coinDetailFragment"
+        android:name="com.enesay.coinlister.view.CoinDetailFragment"
+        android:label="CoinDetailFragment" >
+        <argument
+            android:name="coinID"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_coinDetailFragment_to_hostFragment"
+            app:destination="@id/hostFragment" />
+        <action
+            android:id="@+id/action_coinDetailFragment_to_favFragment"
+            app:destination="@id/favFragment" />
+        <argument
+            android:name="control"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinListFragment"
+        android:name="com.enesay.coinlister.view.CoinListFragment"
+        android:label="CoinListFragment" >
+        <action
+            android:id="@+id/action_coinListFragment_to_hostFragment"
+            app:destination="@id/hostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.enesay.coinlister.view.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login"
+        >
+        <action
+            android:id="@+id/action_loginFragment_to_hostFragment"
+            app:destination="@id/hostFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.enesay.coinlister.view.CoinFavFragment"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_coin_fav" >
+        <action
+            android:id="@+id/action_favFragment_to_coinDetailFragment"
+            app:destination="@id/coinDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.enesay.coinlister.view.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splash"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/hostFragment"
+        android:name="com.enesay.coinlister.view.HostFragment"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" >
+        <action
+            android:id="@+id/action_hostFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_hostFragment_to_coinDetailFragment"
+            app:destination="@id/coinDetailFragment" />
+        <argument
+            android:name="check"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.enesay.coinlister.view.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

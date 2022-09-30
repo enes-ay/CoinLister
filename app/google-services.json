@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "890049704376",
+    "project_id": "coinlister-5d5dd",
+    "storage_bucket": "coinlister-5d5dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890049704376:android:f340470db06169b54d1f4d",
+        "android_client_info": {
+          "package_name": "com.enesay.coinlister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890049704376-8rbvlph5r64kp5uon6ch9912f2rpkcvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJZaQIkZyNwLHJF1bXFapcLkDntF_EsGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890049704376-8rbvlph5r64kp5uon6ch9912f2rpkcvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

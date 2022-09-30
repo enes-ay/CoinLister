@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/list_selector"
+        android:id="@+id/btn_list"
+        android:title="Home"
+        />
+    <item
+        android:icon="@drawable/fav_selector"
+        android:id="@+id/btn_favs"
+        android:title="Favorites"
+        />
+
+
+</menu>

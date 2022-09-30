@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable-v24/fav_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.259" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable-v24/ic_list_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable-v24/ic_star_row.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable-v24/star_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/b.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/bottom_selector.xml" value="0.204" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/button_shape.xml" value="0.122" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/checkbox_selector.xml" value="0.1255" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_back.xml" value="0.1125" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_delete.xml" value="0.143" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_exit.xml" value="0.2265" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_list.xml" value="0.2595" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_star.xml" value="0.2265" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/ic_star_flled.xml" value="0.1255" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/list_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/shape.xml" value="0.1875" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/drawable/shape_row.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout-v31/fragment_host.xml" value="0.13903985507246377" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fav_recycler_row.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_coin_detail.xml" value="0.264" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_coin_fav.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_coin_list.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_fav.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_host.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/fragment_splash.xml" value="0.144" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/recycler_row.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/layout/top_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Enes/AndroidStudioProjects/CoinLister/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
